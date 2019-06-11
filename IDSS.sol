@@ -14,12 +14,11 @@ contract IDSS {
 	bool isICOrunning = false;
 	bool isBUYrunning = false;
 	bool isSELLrunning = false;
-	address _myToken = 0;
 	
 	//events
 	
 	event Transfer(address indexed _from, address indexed _to, uint256 _value);
-    	event Approval(address indexed _owner, address indexed _spender, uint256 _value);
+    event Approval(address indexed _owner, address indexed _spender, uint256 _value);
 	event Burn(address indexed _owner, uint256 _value);
 	
 	//mapping
